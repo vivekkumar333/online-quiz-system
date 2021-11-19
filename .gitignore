@@ -19,5 +19,21 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
+
+### Project Specific files ###
+/quiz-api-server/target/**
+/quiz-api-server/.settings/**
+/quiz-api-server/.project
+/quiz-api-server/.classpath
+/quiz-api-server/.settings
+/quiz-api-server/HELP.md
+/quiz-api-server/.gitignore
+/quiz-api-server/.factorypath
+
+
+### STS ###
+/quiz-api-server/.apt_generated
+/quiz-api-server/.springBeans
+/quiz-api-server/.sts4-cache
